@@ -30,7 +30,7 @@ Gem::Specification.new do |s|
   if RUBY_VERSION >= '2.4'
     s.add_runtime_dependency 'rails', '>= 4.2.0', '< 7.0'
   else
-    s.add_runtime_dependency 'railties', '>= 4.2.0', '< 6.0'
+    s.add_runtime_dependency 'railties', '>= 6', '< 6.1'
   end
   s.add_runtime_dependency 'devise', '>= 4.3.0', '< 5.0'
 
